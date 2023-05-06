@@ -1,5 +1,10 @@
 # Redmi Note 9 Pro
 ## NetHunter Kernel by Naster17
+### ⚠️ Warning! ⚠️
+#### The author is not responsible for your actions! <br>
+Regardless of which solution you choose, it is important to keep safety in mind when working with automotive systems. <br>
+Make sure you understand all the risks and associated precautions when working with automotive systems.
+
 ## 👾 Features 👾
 ### NetHunter:
   * Fxation TTL
