@@ -1,8 +1,16 @@
 # NetHunter Kernel by Naster17
 ## 👾 Features 👾
-* Built-in wifi in monitor mode.
-* Support RTL8150, RTL8152, RTL8192CU, RTL2830, RTL8192EU, RTL8188EUS, RTL8187[+LEDS], RTL2832[+SDR] 
+* Fxation TTL
+* Zram & Zswap
+* CAN protocol via USB-C
+* Built-in wifi [monitor, ~~frame~~]
+* Works built-in bluetooth (hci0)
+* HID functions [hid, mass_storage, rndis, ...]
+* Support RTL8150, RTL8152, RTL8192CU, RTL2830, RTL8192EU, RTL8188EUS, RTL8187[+LEDS], RTL2832[+SDR]
 Compatible: https://github.com/rithvikvibhu/nh-magisk-wifi-firmware
+* Support common bluetooth adapters
+* External drivers via insmod [link]
+
 
 
 # How to compile kernel for Redmi Note 9 Pro (joyeuse)
