@@ -1,3 +1,10 @@
+# NetHunter Kernel by Naster17
+## 👾 Features 👾
+* Built-in wifi in monitor mode.
+* Support RTL8150, RTL8152, RTL8192CU, RTL2830, RTL8192EU, RTL8188EUS, RTL8187[+LEDS], RTL2832[+SDR] 
+Compatible: https://github.com/rithvikvibhu/nh-magisk-wifi-firmware
+
+
 # How to compile kernel for Redmi Note 9 Pro (joyeuse)
 ## Intro
 This source code already contains WiFi and Audio drivers that were not included in the original Xiaomi code.
