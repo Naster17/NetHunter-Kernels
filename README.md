@@ -1,16 +1,24 @@
-# NetHunter Kernel by Naster17
+# Redmi Note 9 Pro
+## NetHunter Kernel by Naster17
 ## 👾 Features 👾
-* Fxation TTL
-* Zram & Zswap
-* CAN protocol via USB-C
-* Built-in wifi [monitor, ~~frame~~]
-* Works built-in bluetooth (hci0)
-* HID functions [hid, mass_storage, rndis, ...]
-* Support RTL8150, RTL8152, RTL8192CU, RTL2830, RTL8192EU, RTL8188EUS, RTL8187[+LEDS], RTL2832[+SDR]
-Compatible: https://github.com/rithvikvibhu/nh-magisk-wifi-firmware
-* Support common bluetooth adapters
-* External drivers via insmod [link]
+### NetHunter:
+  * Fxation TTL
+  * Zram & Zswap
+  * HackRF, Ubertooth
+  * CAN protocol [ [What is](https://www.offsec.com/offsec/introduction-to-car-hacking-the-can-bus/) ]
+  * Built-in wifi [ monitor, ~~frame~~ ]
+  * Work built-in bluetooth [ hci0 ]
+  * Added interfaces [ ip_vti0, sit0, ip6tnl0 ]
+  * HID functions [ hid, mass_storage, rndis, ... ] 
+  * Support RTL8150, RTL8152, RTL8192CU, RTL2830, RTL8192EU, RTL8188EUS, RTL8187[+LEDS], RTL2832[+SDR]
+  Compatible: [ [Firmware1](https://github.com/rithvikvibhu/nh-magisk-wifi-firmware) ] 
+  * Support common bluetooth adapters
+  * External drivers supports [ insmod_drivers.zip ]
+  * All possible NetHunter functions [ [More](https://www.kali.org/docs/nethunter/) ]
 
+### System:
+* CPU governor seted "schedutil" [ default is performance ]
+* Added all posible CPU governors [performance, powersave, ondemand, ... ]
 
 
 # How to compile kernel for Redmi Note 9 Pro (joyeuse)
