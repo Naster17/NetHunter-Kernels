@@ -10,7 +10,7 @@ Make sure you understand all the risks and associated precautions when working w
   * Fxation TTL
   * Zram & Zswap
   * HackRF, Ubertooth
-  * CAN protocol [ [What is](https://www.offsec.com/offsec/introduction-to-car-hacking-the-can-bus/) ]
+  * CAN protocol [ [What is](https://medium.com/@yogeshojha/car-hacking-101-practical-guide-to-exploiting-can-bus-using-instrument-cluster-simulator-part-i-cd88d3eb4a53) ]
   * Built-in wifi [ monitor, ~~frame~~ ]
   * Work built-in bluetooth [ hci0 ]
   * Added interfaces [ ip_vti0, sit0, ip6tnl0 ]
@@ -79,6 +79,16 @@ Compiling:
 ./build.sh
 ```
 
-
-### Flashing
-Reboot into recovery mode, backup the `boot` and `dtbo` partitions. Then install our zip archive. Reboot into the system.
+Compiling modules (insmod drivers):
+```bash
+./build_modules.sh
+```
+After you will see the archive with external drivers. [ InsmodDrivers.zip ]
+<br>
+Make AnyKernel3.zip:
+```bash
+./MakeAnyKernel3.sh
+```
+After you will see the archive. [ NasterKernel.zip ]
+<br>
+## And now you can flash it via TWRP! 😁
