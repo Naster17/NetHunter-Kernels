@@ -2,7 +2,7 @@
 ## NetHunter Kernel by Naster17
 ### ⚠️ Warning! ⚠️
 #### The author is not responsible for your actions! <br>
-Regardless of which solution you choose, it is important to keep safety in mind when working with automotive systems. <br>
+CAN interface: Regardless of which solution you choose, it is important to keep safety in mind when working with automotive systems. <br>
 Make sure you understand all the risks and associated precautions when working with automotive systems.
 
 ## 👾 Features 👾
@@ -10,13 +10,13 @@ Make sure you understand all the risks and associated precautions when working w
   * Fxation TTL
   * Zram & Zswap
   * HackRF, Ubertooth
-  * CAN protocol [ [What is](https://medium.com/@yogeshojha/car-hacking-101-practical-guide-to-exploiting-can-bus-using-instrument-cluster-simulator-part-i-cd88d3eb4a53) ]
+  * CAN interface [ [What is](https://medium.com/@yogeshojha/car-hacking-101-practical-guide-to-exploiting-can-bus-using-instrument-cluster-simulator-part-i-cd88d3eb4a53) ]
   * Built-in wifi [ monitor, ~~frame~~ ]
   * Work built-in bluetooth [ hci0 ]
   * Added interfaces [ ip_vti0, sit0, ip6tnl0 ]
   * HID functions [ hid, mass_storage, rndis, ... ] 
   * Support RTL8150, RTL8152, RTL8192CU, RTL2830, RTL8192EU, RTL8188EUS, RTL8187[+LEDS], RTL2832[+SDR] <br>
-  Compatible: [ [Firmware1](https://github.com/rithvikvibhu/nh-magisk-wifi-firmware) ] 
+  Compatible: [ [Firmware](https://github.com/rithvikvibhu/nh-magisk-wifi-firmware) ] 
   * Support common bluetooth adapters
   * External drivers supports [ insmod_drivers.zip ]
   * All possible NetHunter functions [ [More](https://www.kali.org/docs/nethunter/) ]
